@@ -1,0 +1,7 @@
+[02-Feb-2016 08:49:51 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 34
+[02-Feb-2016 08:50:39 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 36
+[02-Feb-2016 08:50:56 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 36
+[24-Feb-2016 17:46:18 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 48
+[24-Feb-2016 18:20:24 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 48
+[24-Feb-2016 18:22:00 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 48
+[24-Feb-2016 18:23:40 Asia/Taipei] PHP Fatal error:  Call to a member function execute() on a non-object in /home/fskt/public_html/admin/manager/memberManager/memberDataManager/process.php on line 48

@@ -1,0 +1,2 @@
+[04-Sep-2015 01:43:37 Asia/Taipei] PHP Warning:  include(../library/PHPMailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/fskt/public_html/conf/function.php on line 2
+[04-Sep-2015 01:43:37 Asia/Taipei] PHP Warning:  include(): Failed opening '../library/PHPMailer/class.phpmailer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fskt/public_html/conf/function.php on line 2

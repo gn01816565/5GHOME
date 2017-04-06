@@ -1,0 +1,630 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>5GHOME購物平台</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<!--theme style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<script src="js/jquery.min.js"></script>
+<!--//theme style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Wedding Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- start menu -->
+<script src="js/simpleCart.min.js"> </script>
+<!-- start menu -->
+<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
+<!-- /start menu -->
+<link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+</head>
+<body> 
+<script src="js/responsiveslides.min.js"></script>
+<script>  
+    $(function () {
+      $("#slider").responsiveSlides({
+        auto: true,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        pager: false,
+      });
+    });
+  </script>
+<!--header-->
+<div class="header-top">
+	 <div class="header-bottom">			
+				<div class="logo">
+					<a href="index.html">
+            <img src="images/logo.jpg" style="margin:5px 10px 5px 5px;margin-top:10px;">  
+          </a>  				
+				</div>
+			 <!---->		 
+			 <div class="top-nav">
+				<ul class="memenu skyblue">
+          <li class="grid">
+            <a href="#">Store</a>
+            <div class="mepanel" style="width:400px;">
+              <div class="row">
+                <div class="col1 me-one">
+                  <h4>SHOP</h4>
+                  <ul>
+                    <li><a href="product.html">人氣商品 TOP</a></li>
+                    <li><a href="product.html">熱賣商品 TOP</a></li>
+                    <li><a href="product.html">最新商品 TOP</a></li>
+                    <li><a href="product.html">商品影音區</a></li>
+                    <li><a href="product.html">全產品列表</a></li>
+                  </ul>
+                </div>
+                <div class="col1 me-one">
+                  <h4>產品類型</h4>
+                  <ul>
+                    <li><a href="product.html">影音/遊戲用線</a></li>
+                    <li><a href="product.html">轉接頭</a></li>
+                    <li><a href="product.html">電腦週邊</a></li>
+                    <li><a href="product.html">客製品</a></li>
+                    <li><a href="product.html">網路用線</a></li>
+                    <li><a href="product.html">電源週邊</a></li>
+                    <li><a href="product.html">HUB/切換器/信號延伸器</a></li>
+                    <li><a href="product.html">可伸縮傳輸線</a></li>
+                    <li><a href="product.html">電纜線材</a></li>
+                    <li><a href="product.html">連接器零件/配件</a></li>
+                    <li><a href="product.html">RG同軸電線</a></li>
+                    <li><a href="product.html">USB/MINI USB/MICRO USB</a></li>
+                  </ul> 
+                </div>
+                <!--
+                <div class="col1 me-one">
+                  <h4></h4>
+                  <ul>
+                    <li><a href="product.html">Everyday</a></li>
+                    <li><a href="product.html">Philips</a></li>
+                    <li><a href="product.html">Havells</a></li>
+                    <li><a href="product.html">Wipro</a></li>
+                    <li><a href="product.html">Jaguar</a></li>
+                    <li><a href="product.html">Ave</a></li>
+                    <li><a href="product.html">Gold Medal</a></li>
+                    <li><a href="product.html">Anchor</a></li>
+                  </ul> 
+                </div>
+              -->
+              </div>
+            </div>
+          </li>
+          <!--
+          <li class="grid"><a href="#">Accessories</a>
+            <div class="mepanel">
+              <div class="row">
+                <div class="col1 me-one">
+                  <h4>Shop</h4>
+                  <ul>
+                    <li><a href="product.html">New Arrivals</a></li>
+                    <li><a href="product.html">Home</a></li>
+                    <li><a href="product.html">Decorates</a></li>
+                    <li><a href="product.html">Accessories</a></li>
+                    <li><a href="product.html">Kids</a></li>
+                    <li><a href="product.html">Login</a></li>
+                    <li><a href="product.html">Brands</a></li>
+                    <li><a href="product.html">My Shopping Bag</a></li>
+                  </ul>
+                </div>
+                <div class="col1 me-one">
+                  <h4>Type</h4>
+                  <ul>
+                    <li><a href="product.html">Diwali Lights</a></li>
+                    <li><a href="product.html">Tube Lights</a></li>
+                    <li><a href="product.html">Bulbs</a></li>
+                    <li><a href="product.html">Ceiling Lights</a></li>
+                    <li><a href="product.html">Accessories</a></li>
+                    <li><a href="product.html">Lanterns</a></li>
+                  </ul> 
+                </div>
+                <div class="col1 me-one">
+                  <h4>Popular Brands</h4>
+                  <ul>
+                    <li><a href="product.html">Everyday</a></li>
+                    <li><a href="product.html">Philips</a></li>
+                    <li><a href="product.html">Havells</a></li>
+                    <li><a href="product.html">Wipro</a></li>
+                    <li><a href="product.html">Jaguar</a></li>
+                    <li><a href="product.html">Ave</a></li>
+                    <li><a href="product.html">Gold Medal</a></li>
+                    <li><a href="product.html">Anchor</a></li>                    
+                  </ul> 
+                </div>
+              </div>
+            </div>
+          </li>
+          -->
+          <!--
+          <li class="grid"><a href="typo.html">Typo</a></li>
+          <li class="grid"><a href="contact.html">Contact</a></li>  
+          --> 
+          <li class="grid"><a href="typo.html">型錄/電子報</a></li>
+          <li class="grid"><a href="typo.html">產品詢問</a></li>
+        </ul>  
+				<div class="clearfix"> </div>
+			 </div>
+			 <!---->
+			 <div class="cart box_1">
+				<img src="images/Taiwan.png" style="width:24px;">
+        <img src="images/gb.png">
+        <img src="images/jp.png">
+        <button style="border:1px solid #000;background-color:#fff;">登入</button>
+         <a href="checkout.html">
+
+          <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+          <div class="total">
+            <!--
+            <span class="simpleCart_total"></span> 
+            -->
+          (<span id="simpleCart_quantity" class="simpleCart_quantity"></span>)
+          </div>
+        </a>
+			 	<div class="clearfix"> </div>
+			 </div>
+			 <div class="clearfix"> </div>
+			 <!---->			 
+			 </div>
+			<div class="clearfix"> </div>
+</div>
+<!---->
+<div class="slider">
+    <div class="callbacks_container">
+       <ul class="rslides" id="slider">
+           <li>
+         <div class="banner1">  
+         <!--       
+            <div class="banner-info">
+            
+            <h3>Morbi lacus hendrerit efficitur.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.</p>
+            </div>
+          -->  
+         </div>
+           </li>
+           <li>
+         <div class="banner2">
+          <!--
+           <div class="banner-info">
+           <h3>Phasellus elementum tincidunt.</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.</p>
+           </div>
+          -->
+         </div>
+       </li>
+           <li>
+               <div class="banner3">
+                <!--
+             <div class="banner-info">
+             <h3>Maecenas interposuere volutpat.</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.</p>
+         </div>
+        -->
+         </div>
+           </li>
+        </ul>
+    </div>
+  </div>
+<form style="text-align:center;">
+  <div class="form-group" style="margin:20px;">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="商品搜尋" style="width:600px;display:inline;">
+    <img src="images/magnifying-glass.png" style="width:30px;display:inline;">
+  </div>
+</form>  
+<!---->
+<script src="js/bootstrap.js"> </script>
+<!--header//-->
+
+
+<div class="rsidebar span_1_of_left" style="padding-left:100px;width:20%;float:left;">
+ <section  class="sky-form">
+   <div class="product_right">
+     <h4 class="m_2"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>分類類別</h4>
+     <div class="tab1">
+       <ul class="place">               
+         <li class="sort">UL線材</li>
+         <li class="by"><img src="images/do.png" alt=""></li>
+          <div class="clearfix"> </div>
+        </ul>
+       <div class="single-bottom">            
+          <a href="#"><p>UL線材</p></a>
+         </div>
+        </div>              
+      <div class="tab2">
+       <ul class="place">               
+         <li class="sort">行動電源</li>
+         <li class="by"><img src="images/do.png" alt=""></li>
+          <div class="clearfix"> </div>
+        </ul>
+       <div class="single-bottom">            
+          <a href="#"><p>行動電源配件</p></a>         
+         </div>
+        </div>
+      <div class="tab3">
+       <ul class="place">               
+         <li class="sort">影音/遊戲用線</li>
+         <li class="by"><img src="images/do.png" alt=""></li>
+          <div class="clearfix"> </div>
+        </ul>
+       <div class="single-bottom">            
+          <a href="#"><p>光纖傳輸線</p></a>
+          <a href="#"><p>HDMI / MINI HDMI /DVI用線</p></a>
+          <a href="#"><p>A/V傳輸線</p></a>
+          <a href="#"><p>音源/耳機/麥克風/手機</p></a>
+          <a href="#"><p>遊戲周邊用線</p></a>
+         </div>
+        </div>
+      <div class="tab4">
+       <ul class="place">               
+         <li class="sort">轉接頭</li>
+         <li class="by"><img src="images/do.png" alt=""></li>
+          <div class="clearfix"> </div>
+        </ul>
+       <div class="single-bottom">            
+          <a href="#"><p>USB/MINI USB/MICRO USB轉接頭</p></a>
+          <a href="#"><p>AC 電源轉接頭</p></a>
+          <a href="#"><p>HDMI /MINI HDMI 轉接頭</p></a>
+         </div>
+        </div>
+      <div class="tab5">
+       <ul class="place">               
+         <li class="sort">USB/MINI USB/MICRO USB</li>
+         <li class="by"><img src="images/do.png" alt=""></li>
+          <div class="clearfix"> </div>
+        </ul>
+       <div class="single-bottom">            
+          <a href="#"><p>USB傳輸線</p></a>
+          <a href="#"><p>USB 配件</p></a>
+          <a href="#"><p>USB 可伸縮轉換線</p></a>
+         </div>
+        </div>
+      
+      <!--script-->
+    <script>
+      $(document).ready(function(){
+        $(".tab1 .single-bottom").hide();
+        $(".tab2 .single-bottom").hide();
+        $(".tab3 .single-bottom").hide();
+        $(".tab4 .single-bottom").hide();
+        $(".tab5 .single-bottom").hide();
+        
+        $(".tab1 ul").click(function(){
+          $(".tab1 .single-bottom").slideToggle(300);
+          $(".tab2 .single-bottom").hide();
+          $(".tab3 .single-bottom").hide();
+          $(".tab4 .single-bottom").hide();
+          $(".tab5 .single-bottom").hide();
+        })
+        $(".tab2 ul").click(function(){
+          $(".tab2 .single-bottom").slideToggle(300);
+          $(".tab1 .single-bottom").hide();
+          $(".tab3 .single-bottom").hide();
+          $(".tab4 .single-bottom").hide();
+          $(".tab5 .single-bottom").hide();
+        })
+        $(".tab3 ul").click(function(){
+          $(".tab3 .single-bottom").slideToggle(300);
+          $(".tab4 .single-bottom").hide();
+          $(".tab5 .single-bottom").hide();
+          $(".tab2 .single-bottom").hide();
+          $(".tab1 .single-bottom").hide();
+        })
+        $(".tab4 ul").click(function(){
+          $(".tab4 .single-bottom").slideToggle(300);
+          $(".tab5 .single-bottom").hide();
+          $(".tab3 .single-bottom").hide();
+          $(".tab2 .single-bottom").hide();
+          $(".tab1 .single-bottom").hide();
+        })  
+        $(".tab5 ul").click(function(){
+          $(".tab5 .single-bottom").slideToggle(300);
+          $(".tab4 .single-bottom").hide();
+          $(".tab3 .single-bottom").hide();
+          $(".tab2 .single-bottom").hide();
+          $(".tab1 .single-bottom").hide();
+        })  
+      });
+    </script>
+    <!-- script -->          
+ </section>
+  <h4 style="margin:5px;">最新消息<text style="margin-left:100px;font-size:12px">more</text></h4>
+  <iframe width="240" height="240" src="https://www.youtube.com/embed/DL4MnuzbFEk?list=PLH25swPR4qs3EYPYW0CsP_1DfvxXS1j7J" frameborder="0" allowfullscreen>
+  </iframe>  
+</div>
+
+<div class="product" >
+	 <div class="container">		
+
+		  <div class="product-price1" style="float:left;width:97%;">
+			  <div class="top-sing">
+
+				  <div class="col-md-7 single-top">	
+					  <div class="flexslider">
+
+							<ul class="slides">
+								<li data-thumb="images/product/20081003268349944.jpg">
+									<div class="thumb-image"> 
+                    <a rel="example_group" href="images/product/20081003268349944.jpg">
+                      <img src="images/product/20081003268349944.jpg" data-imagezoom="true" class="img-responsive" alt=""/> 
+                    </a>
+                  </div>
+								</li>
+								<li data-thumb="images/product/201208171779692023.jpg">
+									 <div class="thumb-image"> 
+                    <a rel="example_group" href="images/product/201208171779692023.jpg">
+                      <img src="images/product/201208171779692023.jpg" data-imagezoom="true" class="img-responsive" alt=""/> 
+                    </a>
+                  </div>
+								</li>
+								<li data-thumb="images/product/20091228868627229.jpg">
+								   <div class="thumb-image"> 
+                    <a rel="example_group" href="images/product/20091228868627229.jpg">
+                    <img src="images/product/20091228868627229.jpg" data-imagezoom="true" class="img-responsive" alt=""/> 
+                    </a>
+                  </div>
+								</li> 
+							</ul>
+
+						</div>					 					 
+
+					  <!--<script src="js/imagezoom.js"></script>-->
+						<script defer src="js/jquery.flexslider.js"></script>
+            <script type="text/javascript" src="js/jquery.fancybox-1.3.4.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" media="screen" />
+						<script>
+						// Can also be used with $(document).ready()
+						$(window).load(function() {
+						  $('.flexslider').flexslider({
+							animation: "fade",
+							controlNav: "thumbnails"
+						  });
+						});
+
+            $("a[rel=example_group]").fancybox({
+              'transitionIn'    : 'none',
+              'transitionOut'   : 'none',
+              'titlePosition'   : 'over'
+              /**
+              'titleFormat'   : function(title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+              }
+              */
+            });
+
+						</script>
+				  </div>	
+          <!--
+          <div class="col-md-5 single-top-in simpleCart_shelfItem" style="border:1px solid #000;width:500px;">
+          -->
+          <div class="col-md-5 single-top-in" style="width:60%;">
+					  <div class="single-para ">
+						  <h4>002727A 音源線 3.5mm 立體音 一公對二母分接轉接頭</h4>							
+							<h5 class="item_price">NTD 67</h5>							
+							<p class="para">
+                音源線 3.5mm 立體音 一公對二母分接轉接頭
+                <br>3.5mm(公) 對2*3.5mm(母) 轉接頭
+                <br>長度=3CM
+              </p>
+              
+							<div class="prdt-info-grid">
+                <!--
+								 <ul>
+									 <li>- Brand : Fos Lighting</li>
+									 <li>- Dimensions : (LXBXH) in cms of...</li>
+									 <li>- Color : Brown</li>
+									 <li>- Material : Wood</li>
+								 </ul>
+                -->
+							</div>
+              
+							<div class="check">
+              <!--
+							  <p>
+                  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                  輸入要購買的數量
+                </p>
+               
+							  <form class="navbar-form">
+								  <div class="form-group">
+									<input type="text" class="form-control" placeholder="Enter Pin code">
+								  </div>
+								  <button type="submit" class="btn btn-default">Verify</button>
+							  </form>
+                -->
+						    </div>
+							<a href="#" class="add-cart item_add">加入詢價清單</a>	
+              <a href="#" class="add-cart item_add" style="background-color:green;">加入購物車</a> 						
+					  </div>
+				  </div>
+         
+				  <div class="clearfix"> </div>
+          <div style="margin-top:20px;margin-left:10px;">
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文文
+          </div>
+
+			  </div>
+	    </div>
+
+
+     <div style="float:left;">
+      相關產品
+  		 <div class="bottom-prdt" style="margin-bottom:50px;">
+  			 <div class="btm-grid-sec">
+  				 <div class="col-md-2 btm-grid">
+  					 <a href="product.html">
+  						<img src="images/product/20100310396013637.jpg" alt="" style="width:166px;"/>
+  						<h4>USB A母 對mini USB 5pin B公 90度轉接頭</h4>
+  						<span>NTD 76</span></a>
+  				 </div>
+  				 <div class="col-md-2 btm-grid">
+  					 <a href="product.html">
+  						<img src="images/product/20091228827708362.jpg" alt="" style="width:166px;"/>
+  						<h4>USB AM to mini usb 5pin 蛇管頭</h4>
+  						<span>NTD 191</span></a>
+  				 </div>
+  				 <div class="col-md-2 btm-grid">
+  					  <a href="product.html">
+  						<img src="images/product/20081003268349944.jpg" alt="" style="width:166px;"/>
+  						<h4>002727A 音源線 3.5mm 立體音 一公對二母分接轉接頭</h4>
+  						<span>NTD 67</span></a>
+  				 </div>
+  				 <div class="col-md-2 btm-grid">
+  					  <a href="product.html">
+  						<img src="images/product/20100310396013637.jpg" alt="" style="width:166px;"/>
+  						<h4>USB A母 對mini USB 5pin B公 90度轉接頭</h4>
+  						<span>NTD 76</span></a>
+  				 </div>
+  				 <div class="col-md-2 btm-grid">
+  					  <a href="product.html">
+  						<img src="images/product/20091228827708362.jpg" alt="" style="width:166px;"/>
+  						<h4>USB AM to mini usb 5pin 蛇管頭</h4>
+  						<span>NTD 191</span></a>
+  				 </div>
+  				  <div class="clearfix"></div>
+  			 </div>			
+  		 </div>
+     </div>
+
+     <div style="float:left;">
+      自己瀏覽紀錄
+       <div class="bottom-prdt">
+         <div class="btm-grid-sec">
+           <div class="col-md-2 btm-grid">
+             <a href="product.html">
+              <img src="images/product/20100310396013637.jpg" alt="" style="width:166px;"/>
+              <h4>USB A母 對mini USB 5pin B公 90度轉接頭</h4>
+              <span>NTD 76</span></a>
+           </div>
+           <div class="col-md-2 btm-grid">
+             <a href="product.html">
+              <img src="images/product/20091228827708362.jpg" alt="" style="width:166px;"/>
+              <h4>USB AM to mini usb 5pin 蛇管頭</h4>
+              <span>NTD 191</span></a>
+           </div>
+           <div class="col-md-2 btm-grid">
+              <a href="product.html">
+              <img src="images/product/20081003268349944.jpg" alt="" style="width:166px;"/>
+              <h4>002727A 音源線 3.5mm 立體音 一公對二母分接轉接頭</h4>
+              <span>NTD 67</span></a>
+           </div>
+           <div class="col-md-2 btm-grid">
+              <a href="product.html">
+              <img src="images/product/20100310396013637.jpg" alt="" style="width:166px;"/>
+              <h4>USB A母 對mini USB 5pin B公 90度轉接頭</h4>
+              <span>NTD 76</span></a>
+           </div>
+           <div class="col-md-2 btm-grid">
+              <a href="product.html">
+              <img src="images/product/20091228827708362.jpg" alt="" style="width:166px;"/>
+              <h4>USB AM to mini usb 5pin 蛇管頭</h4>
+              <span>NTD 191</span></a>
+           </div>
+            <div class="clearfix"></div>
+         </div>     
+       </div>
+     </div>
+
+	 </div>
+</div>
+<!---->
+<div class="subscribe">
+	 <div class="container">
+		 <h3>電子報訂閱</h3>
+		 <form>
+			 <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+			 <input type="submit" value="送出">
+		 </form>
+	 </div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+		 <div class="footer-grids">
+			 <div class="col-md-3 about-us">
+         <h3>About Us</h3>
+         <p>
+          23942 新北市鶯歌區文化路264號<br>
+          TEL：(02)26795800 <br>
+          FAX：(02)86775624<br>
+          Mail：sales@5ghome.com<br>
+          Copyright © 5Ghome.com 2009, All Rights Reserved<br>
+        </p>
+       </div>
+       <div class="col-md-3 ftr-grid">
+          <h3>說明</h3>
+          <ul class="nav-bottom">
+            <li><a href="#">新商品</a></li>
+            <li><a href="#">營業地址</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">商店TOP</a></li>
+          </ul>         
+       </div>
+       <div class="col-md-3 ftr-grid">
+          <h3>資訊</h3>
+          <ul class="nav-bottom">
+            <li><a href="login.html">會員登入</a></li>
+            <li><a href="contact.html">聯絡我們</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>         
+       </div>
+       <div class="col-md-3 ftr-grid">
+          <h3>隱私權與條款</h3>
+          <ul class="nav-bottom">
+            <li><a href="#">隱私權</a></li>
+            <li><a href="#">運費說明</a></li>
+            <li><a href="#">會員權益</a></li>
+            <li><a href="#">銷售條款</a></li>
+            <li><a href="#">網站使用條款</a></li> 
+          </ul>         
+       </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<div class="copywrite">
+	 <div class="container">
+		 <div class="copy">
+			 <p>© 2015 Lighting. All Rights Reserved </p>
+		 </div>
+		 <div class="social">							
+				<a href="#"><i class="facebook"></i></a>
+				<a href="#"><i class="twitter"></i></a>
+				<a href="#"><i class="dribble"></i></a>	
+				<a href="#"><i class="google"></i></a>	
+				<a href="#"><i class="youtube"></i></a>	
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+</body>
+</html>

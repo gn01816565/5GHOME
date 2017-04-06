@@ -1,0 +1,7 @@
+[30-Sep-2015 12:18:38 Asia/Taipei] PHP Fatal error:  Call to undefined function getIp() in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 46
+[30-Sep-2015 12:19:29 Asia/Taipei] PHP Fatal error:  Call to undefined function getIp() in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 69
+[07-Mar-2016 17:55:40 Asia/Taipei] PHP Parse error:  syntax error, unexpected '.' in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 57
+[07-Mar-2016 17:55:47 Asia/Taipei] PHP Parse error:  syntax error, unexpected '.' in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 57
+[07-Mar-2016 17:56:18 Asia/Taipei] PHP Parse error:  syntax error, unexpected '.' in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 57
+[07-Mar-2016 17:56:34 Asia/Taipei] PHP Parse error:  syntax error, unexpected '.' in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 57
+[07-Mar-2016 18:01:21 Asia/Taipei] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/fskt/public_html/admin/manager/systemManage/adminConfig/process.php on line 23

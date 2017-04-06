@@ -1,0 +1,1449 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+
+/*-----------------------版面顏色、標題、外圓角、外框線調整-----------------------*/
+/*版面顏色*/
+body a.red,
+body a.red2,
+body a.yellow,
+body a.yellow2,
+body a.blue,
+body a.blue2,
+body a.green,
+body a.green2,
+body button.red,
+body button.red2,
+body button.yellow,
+body button.yellow2,
+body button.blue,
+body button.blue2,
+body button.green,
+body button.green2,
+body label.btnUpload{
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+body .red,
+body a.red,
+body button.red{
+	background-color: #b83b35;
+	color: #FFF;
+}
+body .red2,
+body a.red2,
+body button.red2{
+	background-color: #5b221f;
+	color: #FFF;
+}
+body .yellow,
+body a.yellow,
+body button.yellow,
+body label.btnUpload{
+	background-color: #f7941d;
+	color: #FFF;
+}
+body .yellow2,
+body a.yellow2,
+body button.yellow2{
+	background-color: #d47f1a;
+	color: #FFF;
+}
+body .blue,
+body a.blue,
+body button.blue{
+	background-color: #448ccb;
+	color: #FFF;
+}
+body .blue2,
+body a.blue2,
+body button.blue2{
+	background-color: #003663;
+	color: #FFF;
+}
+body .green,
+body a.green,
+body button.green{
+	background-color: #598527;
+	color: #FFF;
+}
+body .green2,
+body a.green2,
+body button.green2{
+	background-color: #2e4a12;
+	color: #FFF;
+}
+body a:hover.red,
+body a:hover.red2,
+body a:hover.yellow,
+body a:hover.yellow2,
+body a:hover.blue,
+body a:hover.blue2,
+body a:hover.green,
+body a:hover.green2,
+body button:hover.red,
+body button:hover.red2,
+body button:hover.yellow,
+body button:hover.yellow2,
+body button:hover.blue,
+body button:hover.blue2,
+body button:hover.green,
+body button:hover.green2,
+body label:hover.btnUpload{
+	background-color: #000;
+}
+/*外框顏色*/
+body .red_B,
+body a.red_B,
+body li .red_B,
+body .yellow_B,
+body a.yellow_B,
+body li .yellow_B,
+body .blue_B,
+body a.blue_B,
+body li .blue_B,
+body .green_B,
+body a.green_B,
+body li .green_B{
+	border: 5px solid #e1e1e1;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+body .red_B:hover,
+body a:hover.red_B,
+body li:hover .red_B{
+	border: 5px solid #b83b35
+}
+body .yellow_B:hover,
+body a:hover.yellow_B,
+body li:hover .yellow_B{
+	border: 5px solid #f7941d;
+}
+body .blue_B:hover,
+body a:hover.blue_B,
+body li:hover .blue_B{
+	border: 5px solid #448ccb;
+}
+body .green_B:hover,
+body a:hover.green_B,
+body li:hover .green_B{
+	border: 5px solid #598527;
+}
+/*文字顏色*/
+body .red_T{
+	color: #b83b35;
+}
+body .yellow_T{
+	color: #f7941d;
+}
+body .blue_T{
+	color: #448ccb;
+}
+body .green_T{
+	color: #598527;
+}
+/*各區塊設定*/
+.boxWarp{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #FFF;
+	border: 1px solid #e1e1e1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 0 10px 0;
+}
+.boxWarp h2{
+	padding: 0 10px;
+	line-height: 30px;
+	position: relative;
+}
+.boxWarp h2 .moreBtn{
+	width: 80px;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.boxWarp h2 .moreBtn a{
+	background: rgba(0,0,0,0.5);
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+.boxWarp h2 .moreBtn a:hover{
+	background: rgba(0,0,0,0.6);
+}
+/*--------------------版面顏色、標題、外圓角、外框線調整 End----------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------Login----------------------------------*/
+/*Login 整體區塊*/
+#loginMainWarp{
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+/*End*/
+#loginWarp{
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 9;
+	margin: -209px 0 0 -150px;
+}
+#loginWarp .logo{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 0;
+	text-align: center;
+}
+#loginWarp .logo img{
+	width: 100%;
+	min-width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#loginWarp .txt{
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 34px;
+	margin: 20px 0 0 14px;
+}
+#loginWarp .formWarp,
+#loginWarp .formWarp .formBox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#loginWarp .formWarp .formBox{
+	margin: 20px 0;
+}
+#loginWarp .formWarp .formBox .title{
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+}
+#loginWarp .formWarp .formBox .form{
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	border: 1px solid #e1e1e1;
+}
+#loginWarp .formWarp .formBox .form input[type=text],
+#loginWarp .formWarp .formBox .form input[type=password]{
+	width: 90%;
+	height: 40px;
+	overflow: hidden;
+	display: block;
+	margin: 5px auto;
+	background: none;
+	text-align: center;
+	color: #555;
+	letter-spacing: 2px;
+	/*border: 1px solid #e1e1e1;*/
+}
+#loginWarp .formWarp .formBox .loginBtn{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	margin: 0 auto;
+	display: block;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+/*----------------------------------Login End--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*-----------------------------整體區塊（整體）--------------------------------*/
+#pageMainWarp{
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+/*左右主區塊*/
+#pageWarp{
+	width: 100%;
+	/*width: 1000px;*/
+	height: auto;
+	overflow: hidden;
+}
+#pageWarp #asideWarp,
+#pageWarp #rightWarp{
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin-bottom: -500em;
+}
+#pageWarp #asideWarp{
+	width: 20%; /*20151130kai調整*/
+	padding: 10px 0 500em 10px;
+}
+#pageWarp #rightWarp{
+	width: 80%; /*20151130kai調整*/
+	padding: 10px 10px 500em 10px;
+}
+/*----------------------------整體區塊（整體）End------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------回最上層----------------------------------*/
+#pageTopBtn,
+#pageTopBtn a{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+#pageTopBtn{
+	position: fixed;
+	bottom: -100px;
+	right: 20px;
+	z-index: 9999;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+#pageTopBtn.move{
+	bottom: 0;
+}
+#pageTopBtn a{
+	display: block;
+	text-indent: -9999px;
+	background-image: url(../images/page_top.svg);
+	background-repeat: no-repeat;
+}
+/*--------------------------------回最上層 End--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------------上方工具列---------------------------------*/
+#topLineWarp{
+	width: 100%;
+	min-width: 1000px;
+	height: 4px;
+	position: relative;
+}
+#topLineWarp .btnWarp{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 4px;
+	right: 20px;
+	z-index: 9999;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+#topLineWarp .btnWarp ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#topLineWarp .btnWarp ul li{
+	float: left;
+}
+#topLineWarp .btnWarp ul li a{
+	display: block;
+	padding: 0 20px;
+	line-height: 30px;
+	text-align: center;
+}
+/*-------------------------------上方工具列 End-------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------左側 Menu & 登入狀態訊息--------------------------*/
+/*LOGO & Login Info*/
+#logoWarp .logoBox{
+	padding: 30px 0;
+}
+#logoWarp .logoBox .logo{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 0;
+}
+#logoWarp .logoBox .logo img{
+	width: 100%;
+	min-width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#logoWarp .logoBox h1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 26px; /*default:28px*/
+	margin: 10px 0 0 14px;
+}
+#logoWarp .userInfo{
+	background: #b83b35;
+	line-height: 30px;
+	color: #FFF;
+	text-indent: 10px;
+}
+#logoWarp .userInfo span{
+	text-decoration: underline;
+}
+/*Menu & Info*/
+#menuWarp h2{
+	line-height: 40px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #e1e1e1;
+}
+#menuWarp .btnWarp ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#menuWarp .btnWarp ul li,
+#menuWarp .btnWarp ul li a{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+#menuWarp .btnWarp ul li:last-child{
+	border: none;
+}
+#menuWarp .btnWarp ul li{
+	border-bottom: 1px solid #e1e1e1;
+}
+#menuWarp .btnWarp ul li a{
+	display: block;
+	position: relative;
+}
+#menuWarp .btnWarp ul li a h3{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	color: #555;
+	padding: 10px;
+}
+#menuWarp .btnWarp ul li a .icon{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 0 5px 8.7px;
+	border-color: transparent transparent transparent #AAA;
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	z-index: 99;
+}
+#menuWarp .btnWarp ul li ul{
+	margin: 0;
+	padding: 5px 0;
+	list-style: none;
+	background: rgba(0,0,0,0.8);
+	display: none;
+}
+#menuWarp .btnWarp ul li ul li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border: none;
+}
+#menuWarp .btnWarp ul li ul li a{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: right;
+	color: #AAA;
+	padding: 10px;
+	display: block;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+#menuWarp .btnWarp ul li ul li a:hover{
+	color: #FFF;
+}
+#infoWarp h2{
+	line-height: 40px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #e1e1e1;
+}
+#infoWarp .txtWarp{
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+#infoWarp .txtWarp .txt{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+/*-------------------------左側 Menu & 登入狀態訊息 End------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------目前位置----------------------------------*/
+#placeWarp{
+	padding: 10px;
+}
+#placeWarp .title,
+#placeWarp a,
+#placeWarp span{
+	float: left;
+}
+#placeWarp a,
+#placeWarp span{
+	margin: 0 5px;
+	color: #555;
+}
+#placeWarp a{
+	display: block;
+}
+#placeWarp a:hover{
+	text-decoration: underline;
+}
+/*--------------------------------目前位置 End--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------Footer----------------------------------*/
+#footerWarp,
+#footerWarp h2{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+#footerWarp.login{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 99;
+}
+#footerWarp h2{
+	line-height: 60px;
+	text-align: center;
+}
+/*--------------------------------Footer End--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*-----------------------------整體區塊（已登入首頁）---------------------------*/
+#pageIndexWarp{
+	padding: 10px 10px 0 10px;
+}
+/*---------------------------整體區塊（已登入首頁）End--------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------------連結文字區塊-------------------------------*/
+#infoBoxWarp{
+	background: #e7e7e7;
+	border: none;
+}
+#infoBoxWarp ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#infoBoxWarp ul li{
+	width: 48%;
+	height: auto;
+	min-height: 130px;
+	overflow: hidden;
+	background: #FFF;
+	margin: 1%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+}
+#infoBoxWarp ul li .linksWarp{
+	padding: 5px 10px;
+}
+#infoBoxWarp ul li .linksWarp h3 a{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	line-height: 30px;
+	color: #555;
+}
+#infoBoxWarp ul li .linksWarp a:hover{
+	text-decoration: underline;
+}
+/*-------------------------------連結文字區塊 End-----------------------------*/
+
+
+
+
+
+
+
+
+
+/*-----------------------------瀏覽記錄 & 供應商公告---------------------------*/
+#historyWarp ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#historyWarp ul li{
+	width: 21%;
+	height: auto;
+	overflow: hidden;
+	margin: 2%;
+	float: left;
+}
+#historyWarp ul li a{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+}
+#historyWarp ul li a .imgBox{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+	line-height: 0;
+}
+#historyWarp ul li a:hover .imgBox{
+	border: 5px solid #b83b35;
+}
+#historyWarp ul li a h3,
+#historyWarp ul li a .corp{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+}
+#historyWarp ul li a h3{
+	line-height: 40px;
+	font-size: 16px;
+}
+#historyWarp ul li a:hover h3{
+	text-decoration: underline;
+}
+#historyWarp ul li a .corp{
+	color: #555;
+}
+#historyWarp ul li a .like{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+#historyWarp ul li a .like p{
+	color: #555;
+	float: left;
+}
+#historyWarp ul li a .like ul{
+	width: 100px;
+	height: auto;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+#historyWarp ul li a .like ul li{
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+	margin: 5px;
+	background: url(../images/star.svg) no-repeat;
+	-webkit-background-size: 10px 30px;
+	-moz-background-size: 10px 30px;
+	background-size: 10px 30px;
+	float: left;
+}
+#historyWarp ul li a .like ul li.goodHalf{
+	background-position: 0 -10px;
+}
+#historyWarp ul li a .like ul li.good{
+	background-position: 0 -20px;
+}
+#historyWarp ul li a .price{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 40px;
+	text-align: right;
+}
+#historyWarp ul li .price span{
+	font-size: 18px;
+	font-weight: bold;
+}
+#historyWarp .historyClear{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px 0;
+	background: #e1e1e1;
+	text-align: center;
+}
+#historyWarp .historyClear button{
+	display: block;
+	padding: 0 20px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#newsWarp .tableWarp{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	table-layout: fixed;
+}
+#newsWarp .tableWarp table{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	table-layout: fixed;
+}
+#newsWarp .tableWarp table tr:nth-child(even){
+	background: #FFF;
+}
+#newsWarp .tableWarp table tr:nth-child(odd){
+	background: #f5f5f5;
+}
+#newsWarp .tableWarp table tr td{
+	text-align: center;
+}
+#newsWarp .tableWarp table tr td.leftTxt{
+	text-align: left;
+}
+#newsWarp .tableWarp table tr td.titleTxt{
+	padding: 10px;
+}
+#newsWarp .tableWarp table tr td a h3{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#newsWarp .tableWarp table tr td.num,
+#newsWarp .tableWarp table tr td.date{
+	overflow: hidden;
+	background: rgba(0,0,0,0.1);
+}
+#newsWarp .tableWarp table tr td.num{
+	width: 80px;
+}
+#newsWarp .tableWarp table tr td.date{
+	width: 100px;
+}
+#newsWarp .tableWarp table tr td a{
+	width: 100%;
+	display: block;
+	padding: 10px;
+	color: #555;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+#newsWarp .tableWarp table tr td a:hover{
+	background: #333;
+	color: #FFF;
+}
+
+/*針對mutiselect設定的css_kai*/
+#newsWarp .tableWarp table tr td#multselect {
+	text-align:left;
+}
+#newsWarp .tableWarp table tr td#multselect a{
+	width: auto;
+	display: inline;
+	padding: 0px;
+	color: #FFF;
+	margin-right:7px;
+	-webkit-transition: 0;
+	-moz-transition: 0;
+	-o-transition: 0;
+	-ms-transition: 0;
+	transition: 0;
+}
+#newsWarp .tableWarp table tr td#multselect span{
+	line-height: 10px;
+}
+#newsWarp .tableWarp table tr td#multselect a:hover{
+	background: none;
+	color: #FFF;
+}
+#formTable table td#multselect input[type=text]{
+	width: 100px;
+	height: auto;
+	overflow: hidden;
+	line-height: 11px;
+	padding: 0px;
+	background: #fff;
+	border: 0;
+	color: #555;
+  border: 1px solid #e1e1e1;
+}
+
+
+/*針對ckeditor設定的css_kai*/
+#newsWarp .tableWarp table tr td#ckeditor {
+	text-align:left;
+}
+#newsWarp .tableWarp table tr td#ckeditor a{
+	width: auto;
+	display: inline;
+	padding: 3px;
+	color: #FFF;
+	margin-right:7px;
+	-webkit-transition: 0;
+	-moz-transition: 0;
+	-o-transition: 0;
+	-ms-transition: 0;
+	transition: 0;
+}
+#newsWarp .tableWarp table tr td#ckeditor span{
+	line-height: 22px;
+}
+#newsWarp .tableWarp table tr td#ckeditor a:hover{
+	background: none;
+	color: #FFF;
+}
+#formTable table td#ckeditor input[type=text]{
+	width: 100px;
+	height: auto;
+	overflow: hidden;
+	line-height: 11px;
+	padding: 0px;
+	background: #fff;
+	border: 0;
+	color: #555;
+  border: 1px solid #e1e1e1;
+}
+
+/*---------------------------瀏覽記錄 & 供應商公告 End-------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------Responsive--------------------------------*/
+@media only screen and (min-width: 3840px) {
+	#historyWarp ul li{
+		width: 18%;
+		margin: 1%;
+	}
+	#historyWarp ul li a .imgBox{
+		height: 400px;
+	}
+
+}
+@media only screen and (min-width: 2560px) and (max-width: 3839px) {
+	#historyWarp ul li{
+		width: 18%;
+		margin: 1%;
+	}
+	#historyWarp ul li a .imgBox{
+		height: 220px;
+	}
+
+}
+@media only screen and (min-width: 1680px) and (max-width: 2559px) {
+	#historyWarp ul li{
+		width: 18%;
+		margin: 1%;
+	}
+	#historyWarp ul li a .imgBox{
+		height: 160px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------整體區塊（內頁）-----------------------------*/
+#pageformWarp{
+	padding: 0 10px;
+}
+/*-----------------------------整體區塊（內頁）End-----------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------------送出按鈕樣式---------------------------------*/
+.pageBtnWarp{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #e1e1e1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 0 10px 0;
+}
+.pageBtnWarp ul{
+	height: 50px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.pageBtnWarp ul li,
+.pageBtnWarp ul li a{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+.pageBtnWarp ul li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+.pageBtnWarp ul li a,
+.pageBtnWarp ul li button,
+.pageBtnWarp ul li input[type=submit]
+{
+	display: block;
+	padding: 0 20px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+.pageBtnWarp ul li button,
+.pageBtnWarp ul li input[type=submit]
+{
+	cursor: pointer;
+}
+/*-------------------------------送出按鈕樣式 End-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------欄位內容---------------------------------*/
+#pageformWarp h2{
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+#pageformWarp h2 span{
+	margin: 0 10px;
+	font-size: 12px;
+	color: #555;
+	letter-spacing: 0;
+}
+#searchBar,
+#pageNumBox{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 10px 0;
+}
+#searchBar{
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	background: #ececec;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: table;
+	vertical-align: middle;
+}
+#searchBar .searchBarTR{
+	display: table-row;
+}
+#searchBar .searchBarTR .searchIcon{
+	width: 50px;
+	overflow: hidden;
+	background: url(../images/search_icon_red.svg) no-repeat;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	display: table-cell;
+}
+#searchBar .searchBarTR .searchForm,
+#searchBar .searchBarTR .searchBtn{
+	height: 30px;
+	overflow: hidden;
+	padding: 10px 0;
+	display: table-cell;
+}
+#searchBar .searchBarTR .searchForm{
+	width: auto;
+}
+#searchBar .searchBarTR .searchForm input[type=text]{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+	background: #FFF;
+	color: #555;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+  border: 1px solid #e1e1e1;
+}
+#searchBar .searchBarTR .searchForm button{
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/*margin: 0 auto;*/
+	margin: 0 0 0 10px;
+	cursor: pointer;
+}
+#searchBar .searchBarTR .searchBtn{
+	width: 100px;
+}
+#searchBar .searchBarTR .searchBtn button{
+	display: block;
+	padding: 0 20px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#toolsBar{
+	padding: 10px;
+}
+#toolsBar button{
+	display: block;
+	padding: 0 10px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 5px 10px 5px 0;
+	cursor: pointer;
+	float: left;
+}
+#formTable table{
+	width: 100%;
+}
+#formTable table tr:nth-child(even){
+	background: #FFF;
+}
+#formTable table tr:nth-child(odd){
+	background: #f5f5f5;
+}
+#formTable table tr td{
+	padding: 10px;
+	text-align: center;
+}
+#formTable table tr td.leftTxt{
+	text-align: left;
+}
+#formTable table tr td.title,
+#formTable table tr td.date,
+#formTable table tr td.btnTools{
+	width: 100px;
+	overflow: hidden;
+}
+#formTable table tr td.title,
+#formTable table tr td.date{
+	background: rgba(0,0,0,0.05);
+}
+#formTable table input[type=text],
+#formTable table input[type=password], /*20150621_kai insert*/
+#formTable table textarea{
+	width: 100%;
+	height: auto;
+	height: 40px;!importent /* 20151214 kai Write , ie config*/
+	overflow: hidden;
+	line-height: 30px;
+	padding: 5px;
+	background: none;
+	border: 0;
+	color: #555;
+  border: 1px solid #e1e1e1;
+}
+#formTable table textarea{
+	resize: none;
+	/*配合jquery.autosize.js增加高度緩衝*/
+	-webkit-transition: all 1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	-moz-transition: all 1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	-ms-transition: all 1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	-o-transition: all 1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition: all 1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+#formTable table input[type=checkbox],
+#formTable table input[type=radio   ]{
+	width: 28px;
+	margin: 10px 0;
+	padding: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+#formTable table input[type=checkbox] + label,
+#formTable table input[type=radio   ] + label{
+	display: inline-block;
+	margin-left: -28px;
+	padding-left: 28px;
+	background: url(../images/form_checks.svg) 0 0 no-repeat;
+	-webkit-background-size: 24px 72px;
+	-moz-background-size: 24px 72px;
+	background-size: 24px 72px;
+	line-height: 24px;
+}
+#formTable table input[type=checkbox]:checked + label{
+	background-position: 0 -24px;
+}
+#formTable table input[type=radio]:checked + label{
+	background-position: 0 -48px;
+}
+#formTable table button,
+#formTable table label.btnUpload{
+	display: block;
+	padding: 0 20px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	float: left;
+}
+#formTable table button.toolsBtn{
+	margin: 0 auto;
+	float: inherit;
+}
+#formTable table label.btnUpload{
+	display: inline-block;
+	float: left;
+}
+#formTable table #photosUpload{
+	width: 0;
+	height: 0;
+}
+/*---------------------------------欄位內容 End-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------頁碼-------------------------------------*/
+#pageNumBox .pageNumWarp{
+	padding: 20px 0;
+	text-align: center;
+}
+#pageNumBox .pageNumWarp a{
+	vertical-align: middle;
+}
+#pageNumBox .pageNumWarp .btnPrev,
+#pageNumBox .pageNumWarp .btnNext{
+	display: inline-block;
+	width: 60px;
+	height: 26px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #FFF;
+	line-height: 26px;
+	color: #555;
+	vertical-align: middle;
+	border: 1px solid #e1e1e1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#pageNumBox .pageNumWarp .btnPrev{
+	margin-right: 5px;
+}
+#pageNumBox .pageNumWarp .btnNext{
+	margin-left: 5px;
+}
+#pageNumBox .pageNumWarp .btnPrev:hover,
+#pageNumBox .pageNumWarp .btnNext:hover{
+	background: #f1f1f1;
+}
+#pageNumBox .pageNumWarp .pageNum a{
+	border: 1px solid #e1e1e1;
+	margin: 0 2px;
+	padding: 5px;
+	background: #FFF;
+	color: #555;
+	font-size: 12px;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#pageNumBox .pageNumWarp .pageNum a:hover,
+#pageNumBox .pageNumWarp .pageNum a.pageNumHold{
+	background: #f1f1f1;
+}
+#pageNumBox .pageNumWarp .pageNum a span{
+	margin: 0 3px;
+	padding: 6px;
+	color: #555;
+	font-size: 12px;
+}
+/*---------------------------------頁碼 End-----------------------------------*/
+
+/*KAI新增*/
+/*回覆訊息視窗*/
+.Reply {
+  -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+  border-color:rgba(141,39,142,.75); 
+  -webkit-box-shadow:0 0 18px rgba(111,1,32,3); 
+}
+
+/*---------------------------------list上方的條件選擇列-------------------------*/
+#productsTools{
+	width: 100%;
+	height: 50px;
+	/*border-bottom: 1px solid #e1e1e1;*/
+	position: relative;
+}
+/*Select*/
+ul.selectBox{
+	width: 625px;
+	height: 32px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	top: 10px;
+	/*left: 10px; */
+	z-index: 99;
+}
+ul.selectBox > li{
+	width: 180px;
+	height: 32px;
+	border: 1px solid #e1e1e1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 10px 0 0;
+	float: left;
+	position: relative;
+}
+ul.selectBox > li .icon{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8.7px 5px 0 5px;
+	border-color: #AAA transparent transparent transparent;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	z-index: 99;
+}
+ul.selectBox > li .title{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+ul.selectBox > li .title a{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 30px;
+	color: #555;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 35px 0 10px;
+	display: block;
+}
+ul.selectBox ul{
+	width: 180px;
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	top: 28px;
+	left: -1px;
+	z-index: 99;
+	display: none;
+}
+ul.selectBox ul > li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 30px;
+	border-bottom: 1px solid #e1e1e1;
+}
+ul.selectBox ul > li a{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	line-height: 30px;
+	color: #555;
+	padding: 0 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+ul.selectBox ul > li a:hover{
+	background: rgba(0,0,0,0.6);
+	color: #FFF;
+}
+ul.selectBox ul > li:last-child{
+	border: none;
+}
+ul.selectBox > li:hover ul{
+	display: block;
+}
+
+/***************************/
+/*警告文字*/
+.fa-warning{
+	color:red;
+}
